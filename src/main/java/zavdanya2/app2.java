@@ -22,8 +22,8 @@ public class app2 {
             System.out.println("Корні рівняння: x1 = " + x1 + ", x2 = " + x2);
         }
         else if (D == 0) {
-            double x;
-            x = -b / (2 * a);
+            int x;
+            x = - b / ( 2 * a );
             System.out.println("Рівняння має один корінь: x = " + x);
         }
         else {
