@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class app2 {
     public static void main(String[] args) {
-        int a, b, c;
+        try { int a, b, c;
         int D;
         System.out.println("Програма рoзвязує квадратне рівняння такого виду:");
         System.out.println("ax^2 + bx + c = 0");
@@ -28,6 +28,8 @@ public class app2 {
         }
         else {
             System.out.println("Рівняння не має коренів!");
-        }
+        }}catch (Exception ex) {
+
+            System.out.println(ex.getMessage());
     }
-}
+}}
